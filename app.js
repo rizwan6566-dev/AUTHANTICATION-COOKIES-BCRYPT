@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt');
 app.use(cookieParser());    
 
 app.get('/', (req, res) => {
-  res.cookie('name', 'John Doe');
+  res.cookie('name', 'Rizwan');
   res.send('Cookie has been set!');
 });
 
